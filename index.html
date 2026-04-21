@@ -4,9 +4,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <meta name="description" content="Join Jay Club Game - India's Most Trusted Color Prediction Platform">
+  <meta name="description" content="Join 6 Club Game - India's Most Trusted Color Prediction Platform">
   <link rel="icon" type="image/x-icon" href="tcfavicon.jpg">
-  <title>Jai Club Game - Win Big with Color Prediction</title>
+  <title>6 Club Game - Win Big with Color Prediction</title>
+
+  <!-- Social Sharing Meta Tags -->
+  <meta property="og:title" content="6 Club Game - India's Most Trusted Prediction Platform">
+  <meta property="og:description"
+    content="Predict Colors & Win Instant Cash Prizes. Join India's Fastest Growing Gaming Platform.">
+  <meta property="og:image" content="6logo.jpg">
+  <meta property="og:type" content="website">
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
   <link
     href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@400;500;600&display=swap"
@@ -34,12 +42,12 @@
 
   <style>
     :root {
-      --gold: #c9a84c;
-      --gold-light: #e8c97a;
-      --gold-dim: #8a6e30;
+      --green: #00ff88;
+      --green-light: #5effb8;
+      --green-dim: #008f4c;
       --cream: #f0e6d0;
       --slate: #7a8fa3;
-      --divider: rgba(201, 168, 76, 0.18);
+      --divider: rgba(0, 255, 136, 0.18);
     }
 
     * {
@@ -59,7 +67,7 @@
     .top-bar {
       width: 100%;
       height: 3px;
-      background: linear-gradient(90deg, transparent, var(--gold), var(--gold-light), var(--gold), transparent);
+      background: linear-gradient(90deg, transparent, var(--green), var(--green-light), var(--green), transparent);
       animation: topBarPulse 3s ease-in-out infinite;
       position: relative;
       z-index: 10;
@@ -107,8 +115,8 @@
       border-radius: 50%;
       overflow: hidden;
       z-index: 20;
-      border: 1.5px solid var(--gold);
-      box-shadow: 0 0 0 4px rgba(201, 168, 76, 0.1), 0 8px 24px rgba(0, 0, 0, 0.8);
+      border: 1.5px solid var(--green);
+      box-shadow: 0 0 0 4px rgba(0, 255, 136, 0.1), 0 8px 24px rgba(0, 0, 0, 0.8);
       background: #0d0d0d;
       padding: 5px;
       transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -116,7 +124,7 @@
 
     .logo:hover {
       transform: translateX(-50%) scale(1.05);
-      box-shadow: 0 0 0 4px rgba(201, 168, 76, 0.25), 0 12px 32px rgba(0, 0, 0, 0.9);
+      box-shadow: 0 0 0 4px rgba(0, 255, 136, 0.25), 0 12px 32px rgba(0, 0, 0, 0.9);
     }
 
     .logo img {
@@ -161,7 +169,7 @@
       font-weight: 600;
       letter-spacing: 0.2em;
       text-transform: uppercase;
-      color: var(--gold);
+      color: var(--green);
     }
 
     .title-eyebrow::before,
@@ -170,11 +178,11 @@
       flex: 1;
       max-width: 60px;
       height: 1px;
-      background: linear-gradient(90deg, transparent, var(--gold-dim));
+      background: linear-gradient(90deg, transparent, var(--green-dim));
     }
 
     .title-eyebrow::after {
-      background: linear-gradient(90deg, var(--gold-dim), transparent);
+      background: linear-gradient(90deg, var(--green-dim), transparent);
     }
 
     .main-title {
@@ -189,7 +197,7 @@
     }
 
     .main-title span {
-      background: linear-gradient(135deg, var(--gold-light), var(--gold));
+      background: linear-gradient(135deg, var(--green-light), var(--green));
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
@@ -206,7 +214,7 @@
     .divider {
       width: 40px;
       height: 2px;
-      background: linear-gradient(90deg, var(--gold-dim), var(--gold));
+      background: linear-gradient(90deg, var(--green-dim), var(--green));
       margin: 0 auto 0.7rem;
       border-radius: 2px;
     }
@@ -229,7 +237,7 @@
       left: 0;
       right: 0;
       height: 2px;
-      background: linear-gradient(90deg, transparent, var(--gold), transparent);
+      background: linear-gradient(90deg, transparent, var(--green), transparent);
     }
 
     .countdown-label {
@@ -238,7 +246,7 @@
       letter-spacing: 0.18em;
       text-transform: uppercase;
       margin-bottom: 0.3rem;
-      color: var(--gold);
+      color: var(--green);
     }
 
     .timer {
@@ -269,7 +277,7 @@
     }
 
     .benefits-list li:hover {
-      border-color: rgba(201, 168, 76, 0.4);
+      border-color: rgba(0, 255, 136, 0.4);
       background: rgba(26, 26, 26, 0.9);
     }
 
@@ -277,8 +285,8 @@
       width: 36px;
       height: 36px;
       border-radius: 8px;
-      background: rgba(201, 168, 76, 0.1);
-      border: 1px solid rgba(201, 168, 76, 0.2);
+      background: rgba(0, 255, 136, 0.1);
+      border: 1px solid rgba(0, 255, 136, 0.2);
       display: flex;
       align-items: center;
       justify-content: center;
@@ -287,8 +295,9 @@
     }
 
     .benefits-list i {
-      font-size: 1rem;
-      color: var(--gold);
+      font-size: 1.1rem;
+      color: #00ff88;
+      display: inline-block;
     }
 
     .benefits-list span {
@@ -309,11 +318,11 @@
       font-family: 'DM Sans', sans-serif;
       letter-spacing: 0.04em;
       text-decoration: none;
-      color: #000;
+      color: #fff;
       border: none;
       border-radius: 10px;
-      background: linear-gradient(135deg, var(--gold-light) 0%, var(--gold) 60%, var(--gold-dim) 100%);
-      box-shadow: 0 4px 24px rgba(201, 168, 76, 0.35), 0 1px 0 rgba(255, 255, 255, 0.15) inset;
+      background: linear-gradient(135deg, var(--green-light) 0%, var(--green) 60%, var(--green-dim) 100%);
+      box-shadow: 0 4px 24px rgba(0, 255, 136, 0.35), 0 1px 0 rgba(255, 255, 255, 0.15) inset;
       transition: transform 0.2s ease, box-shadow 0.2s ease;
       position: relative;
       overflow: hidden;
@@ -342,7 +351,7 @@
     }
 
     .cta-button:hover {
-      box-shadow: 0 6px 32px rgba(201, 168, 76, 0.5);
+      box-shadow: 0 6px 32px rgba(0, 255, 136, 0.5);
       transform: translateY(-1px);
     }
 
@@ -358,14 +367,14 @@
     }
 
     .footer-text a {
-      color: var(--gold);
+      color: var(--green);
       text-decoration: none;
       font-weight: 500;
       transition: color 0.2s;
     }
 
     .footer-text a:hover {
-      color: var(--gold-light);
+      color: var(--green-light);
     }
 
     @media (max-width: 480px) {
@@ -427,7 +436,7 @@
 
       <h1 class="main-title"><span>6 CLUB</span> GAME</h1>
 
-      <p class="subtitle">Predict Colors & Win Instant Cash Prizes. Join India's Fastest Growing Gaming Platform.</p>
+      <p class="subtitle">Pick colors and win instant cash rewards. Join one of India’s fastest growing platforms.</p>
 
       <div class="divider"></div>
 
@@ -456,8 +465,14 @@
         <i class="fas fa-arrow-right"></i>
       </a>
 
+      <a href="https://t.me/+5IuOwpcY6OQzYTdl" target="_blank" class="cta-button" style="margin-top: 0.7rem;">
+        <i class="fab fa-telegram" style="margin-right: 10px; margin-left: 0;"></i>
+        <span>Join Telegram</span>
+        <i class="fas fa-arrow-right" style="margin-left: 10px;"></i>
+      </a>
+
       <p class="footer-text">
-        <a href="https://6club22.com/#/register?invitationCode=68752125862" target="_blank">Contact Customer Service</a>
+        <a href="https://6club22.com/#/register?invitationCode=68752125862" target="_blank">Customer Support</a>
       </p>
     </div>
   </div>
@@ -485,7 +500,7 @@
       var amp = rowH * 0.45;
 
       ctx.lineWidth = 0.7;
-      ctx.strokeStyle = 'rgba(201, 168, 76, 0.22)';
+      ctx.strokeStyle = 'rgba(0, 255, 136, 0.22)';
 
       for (var r = 0; r <= ROWS; r++) {
         ctx.beginPath();
